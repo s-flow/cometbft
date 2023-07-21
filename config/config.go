@@ -633,7 +633,7 @@ type GRPCPruningServiceConfig struct {
 
 func DefaultGRPCPruningServiceConfig() *GRPCPruningServiceConfig {
 	return &GRPCPruningServiceConfig{
-		Enabled: true,
+		Enabled: false,
 	}
 }
 
